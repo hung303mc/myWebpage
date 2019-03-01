@@ -1,0 +1,19 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+  background-color: wheat;
+  border: 0;
+  border-radius: 0;
+}
+
+section{
+  border: 1px;
+  background-color: aquamarine;
+  margin: 5px;
+  padding: 10px;
+}
