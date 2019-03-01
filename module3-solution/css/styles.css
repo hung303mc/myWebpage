@@ -18,6 +18,9 @@ section{
   padding: 10px;
 }
 
+#sec1, #sec2, #sec3{
+  margin-bottom: 40px;
+}
 #nav-list a{
   text-align: center;
 }
