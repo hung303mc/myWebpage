@@ -4,3 +4,22 @@ body {
   background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
 }
+
+#header-nav{
+  background-color: yellow;
+  border: 0;
+  border-radius: 0;
+}
+
+#logo-img{
+  background-image: url("../images/restaurant-logo_large.png"); 
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.navbar-header button.navbar-toggle{
+  clear: both;
+}
+
+/* Change color in drop down menu */
