@@ -17,3 +17,7 @@ section{
   margin: 5px;
   padding: 10px;
 }
+
+#nav-list a{
+  text-align: center;
+}
