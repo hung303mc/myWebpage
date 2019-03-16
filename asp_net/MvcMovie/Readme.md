@@ -10,7 +10,7 @@
   - [ ] Search
 
 ### Step:
-- [ ] Getting Started
+- [x] Getting Started
 - [ ] Adding a Controller
 - [ ] Adding a View
 - [ ] Adding a Model
