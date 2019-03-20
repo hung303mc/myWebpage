@@ -21,6 +21,9 @@
 2. Logo should pull left to make our brand name same line
 3. Want to hidden: use hidden-xs/lg....
 4. Want to all thing overlap: use clear:both. 
+5. Add @media to style.css to adjust correspond size screen
+6. Jumbotron: Should use .container .jumbotron{}
+7. Navigation tiles: make image relative position (become anchor to)-> easy to setup Text absolute pos
 
 ## TODO
 1. Check Clear:both, float:left, right

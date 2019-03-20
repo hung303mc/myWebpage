@@ -22,4 +22,59 @@ body {
   clear: both;
 }
 
-/* Change color in drop down menu */
+#menu-tile, #special-tile, #map-tile{
+  height: 250px;
+  width: 100%;
+  position: relative;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.panel-footer{
+  background-color: #222;
+}
+
+#menu-category-tilte{
+  margin-bottom: 20px;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+  /* End Home Page */
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .container .jumbotron {
+    /* margin-top: 30px; */
+    padding: 0px;
+    border: 0;
+    /* box-shadow: 0 0 50px; */
+
+  }
+}
+
