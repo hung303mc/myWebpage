@@ -28,8 +28,7 @@
             if (User.IsInRole("admin"))
             {
                 <!-- Generate -->
-                @*<a href="@Url.Action("index", "Posts", new { area = "admin"})"></a>*@
-                <a href="@Url.Action("index", "Users")">Click here to access content only for admin</a>
+                <a href="@Url.Action("index", "Posts", new { area = "admin"})"> click here to access admin page</a>
             }
         }
         else

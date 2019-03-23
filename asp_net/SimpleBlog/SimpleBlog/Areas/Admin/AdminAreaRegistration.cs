@@ -2,6 +2,7 @@
 
 namespace SimpleBlog.Areas.Admin
 {
+    // automaticly discover by ASP.NET MVC
     public class AdminAreaRegistration : AreaRegistration 
     {
         public override string AreaName  { get { return "admin"; } }
