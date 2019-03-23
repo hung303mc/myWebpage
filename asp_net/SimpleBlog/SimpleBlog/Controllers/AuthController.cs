@@ -4,11 +4,17 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using SimpleBlog.ViewModels;
+using System.Web.Security;
 
 namespace SimpleBlog.Controllers
 {
     public class AuthController : Controller
     {
+        public ActionResult Logout()
+        {
+            FormsAuthentication.SignOut();
+            return RedirectToRoute("home");
+        }
 
         public ActionResult Login()
         {
@@ -16,18 +22,18 @@ namespace SimpleBlog.Controllers
         }
 
         [HttpPost]
-        public ActionResult Login(AuthLogin form)
+        public ActionResult Login(AuthLogin form, string returnUrl)
         {
             if (!ModelState.IsValid)
                 return View(form);
 
-            if(form.Username != "Hung303mc")
-            {
-                ModelState.AddModelError("Username", "Your username is not cool :)");
-                return View(form);
-            }
-            // Pass 'form' into view since it need info from our Models
-            return Content("The form is valid");
+            // Autheticate
+            FormsAuthentication.SetAuthCookie(form.Username, true);
+
+            if (!string.IsNullOrWhiteSpace(returnUrl))
+                return Redirect(returnUrl);
+
+            return RedirectToRoute("home");
         }
     }
 }
