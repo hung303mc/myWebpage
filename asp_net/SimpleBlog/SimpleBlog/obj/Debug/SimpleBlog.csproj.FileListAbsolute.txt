@@ -67,3 +67,10 @@ E:\01_Project\myWebpage\asp_net\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.cspro
 E:\01_Project\myWebpage\asp_net\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.csproj.CopyComplete
 E:\01_Project\myWebpage\asp_net\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.dll
 E:\01_Project\myWebpage\asp_net\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.pdb
+E:\01_Project\myWebpage\asp_net\SimpleBlog\SimpleBlog\bin\Antlr3.Runtime.dll
+E:\01_Project\myWebpage\asp_net\SimpleBlog\SimpleBlog\bin\Newtonsoft.Json.dll
+E:\01_Project\myWebpage\asp_net\SimpleBlog\SimpleBlog\bin\System.Web.Optimization.dll
+E:\01_Project\myWebpage\asp_net\SimpleBlog\SimpleBlog\bin\WebGrease.dll
+E:\01_Project\myWebpage\asp_net\SimpleBlog\SimpleBlog\bin\Antlr3.Runtime.pdb
+E:\01_Project\myWebpage\asp_net\SimpleBlog\SimpleBlog\bin\Newtonsoft.Json.xml
+E:\01_Project\myWebpage\asp_net\SimpleBlog\SimpleBlog\bin\System.Web.Optimization.xml
