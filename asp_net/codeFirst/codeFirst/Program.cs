@@ -16,6 +16,8 @@ namespace codeFirst
         public float FullPrice { get; set; }
         public Author Author { get; set; }
         public IList<Tag> Tags { get; set; }
+        public Category Category { get; set; }
+        public DateTime? DatePublished { get; set; }
     }
 
     public class Author
@@ -44,6 +46,15 @@ namespace codeFirst
         public DbSet<Course> Courses { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Tag> Tags { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            //base.OnModelCreating(modelBuilder);
+            modelBuilder
+                .Entity<Course>()
+                .ToTable("ourCourses");
+        }
 
         public PlutoContext()
             : base("name=DefaultConnection")
