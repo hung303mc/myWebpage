@@ -217,9 +217,14 @@
     <Compile Include="Migrations\201904100512161_addNameToMemberShipTypeTable.Designer.cs">
       <DependentUpon>201904100512161_addNameToMemberShipTypeTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904100550085_addGenreTable.cs" />
+    <Compile Include="Migrations\201904100550085_addGenreTable.Designer.cs">
+      <DependentUpon>201904100550085_addGenreTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -337,6 +342,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904100512161_addNameToMemberShipTypeTable.resx">
       <DependentUpon>201904100512161_addNameToMemberShipTypeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904100550085_addGenreTable.resx">
+      <DependentUpon>201904100550085_addGenreTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

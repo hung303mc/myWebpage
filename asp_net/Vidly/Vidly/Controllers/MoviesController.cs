@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using Vidly.Models;
 using Vidly.ViewModels;
+using System.Data.Entity;
 
 namespace Vidly.Controllers
 {
@@ -25,7 +26,7 @@ namespace Vidly.Controllers
         // GET: Movies/Index
         public ActionResult Index()
         {
-            var movies = _context.Movies.ToList();                        
+            var movies = _context.Movies.Include(c => c.Genre).ToList();                        
 
             return View(movies);
         }
