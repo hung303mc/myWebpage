@@ -25,11 +25,20 @@ namespace Vidly.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(Customer customer)
+        public ActionResult Save(Customer customer)
         {
-            // similar 'git add'
-            _context.Customers.Add(customer);
-
+            if(customer.Id == 0)
+            {
+                // similar 'git add'
+                _context.Customers.Add(customer);
+            }
+            else
+            {
+                var customerInDb = _context.Customers.Single(c => c.Id == customer.Id);
+                customerInDb.Name = customer.Name;
+                customerInDb.IsSubcribedToNewsletter = customer.IsSubcribedToNewsletter;
+                customerInDb.MembershipTypeId = customer.MembershipTypeId;
+            }
             // similar 'git commit'
             _context.SaveChanges();
 
