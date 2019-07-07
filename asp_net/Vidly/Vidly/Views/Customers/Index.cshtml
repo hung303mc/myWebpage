@@ -22,12 +22,14 @@ else
         <tr>
             <th> Customers</th>
             <th> Membership Type</th>
+            <th> DOB</th>
         </tr>
         @foreach (var customer in Model)
         {
             <tr>
                 <td>@Html.ActionLink(customer.Name,"Edit", new {Id = customer.Id})  </td>
                 <td>@customer.MembershipType.Name</td>
+                <td>@customer.Birthdate</td>
             </tr>
         }
     </table>

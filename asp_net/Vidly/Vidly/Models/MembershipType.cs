@@ -12,5 +12,12 @@ namespace Vidly.Models
         public byte DurationInMonths { get; set; }
         public byte DiscountRate { get; set; }
         public string Name { get; set; }
+
+        public sealed class Const
+        {
+            public const byte UnKnown = 0;
+            public const byte PayAsYouGo = 1;
+        }
+
     }
 }

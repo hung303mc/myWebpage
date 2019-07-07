@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df368325-c98e-4496-97b5-a923a4aea0d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MvcMovie/MvcMovie/obj/Debug/MvcMovie.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MvcMovie/MvcMovie/obj/Debug/MvcMovie.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MvcMovie/MvcMovie/obj/Debug/MvcMovie.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MvcMovie/MvcMovie/obj/Debug/MvcMovie.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Vidly/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Vidly/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Vidly/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Vidly/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Vidly/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Vidly/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vidly/App_Data/aspnet-Vidly-20190408090324.mdf" beforeDir="false" afterPath="$PROJECT_DIR$/Vidly/App_Data/aspnet-Vidly-20190408090324.mdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vidly/App_Data/aspnet-Vidly-20190408090324_log.ldf" beforeDir="false" afterPath="$PROJECT_DIR$/Vidly/App_Data/aspnet-Vidly-20190408090324_log.ldf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vidly/Content/Site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vidly/Content/Site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vidly/Controllers/CustomersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vidly/Controllers/CustomersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vidly/Models/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vidly/Models/Customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vidly/Models/MembershipType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vidly/Models/MembershipType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vidly/Vidly.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Vidly/Vidly.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vidly/Views/Customers/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Vidly/Views/Customers/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vidly/Views/Customers/New.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Vidly/Views/Customers/New.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vidly/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Vidly/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vidly/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Vidly/packages.config" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vidly/Controllers/CustomersController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-64">
+              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+              <folding>
+                <marker date="1561337361888" expanded="true" signature="6:199" ph="..." />
+                <marker date="1561337361888" expanded="true" signature="229:3746" ph="{...}" />
+                <marker date="1561337361888" expanded="true" signature="281:3744" ph="{...}" />
+                <marker date="1561337361888" expanded="true" signature="296:386" ph="private_variable" />
+                <marker date="1561337361888" expanded="true" signature="396:3073" ph="public_method" />
+                <marker date="1561337361888" expanded="true" signature="454:525" ph="{...}" />
+                <marker date="1561337361888" expanded="true" signature="582:634" ph="{...}" />
+                <marker date="1561337361888" expanded="true" signature="706:1677" ph="{...}" />
+                <marker date="1561337361888" expanded="true" signature="753:1037" ph="{...}" />
+                <marker date="1561337361888" expanded="true" signature="842:974" ph="{...}" />
+                <marker date="1561337361888" expanded="true" signature="1072:1187" ph="{...}" />
+                <marker date="1561337361888" expanded="true" signature="1204:1535" ph="{...}" />
+                <marker date="1561337361888" expanded="true" signature="1740:1993" ph="{...}" />
+                <marker date="1561337361888" expanded="false" signature="1763:1859" ph="/* Entity Framework will not excute querry at this code ... */" />
+                <marker date="1561337361888" expanded="true" signature="2035:2473" ph="{...}" />
+                <marker date="1561337361888" expanded="false" signature="2298:2418" ph="{...}" />
+                <marker date="1561337361888" expanded="false" signature="2508:2767" ph="{...}" />
+                <marker date="1561337361888" expanded="false" signature="2654:2720" ph="{...}" />
+                <marker date="1561337361888" expanded="false" signature="2813:3054" ph="{...}" />
+                <marker date="1561337361888" expanded="false" signature="3083:3737" ph="TDD" />
+                <marker date="1561337361888" expanded="true" signature="3184:3718" ph="{...}" />
+                <marker date="1561337361888" expanded="true" signature="3246:3304" ph="{...}" />
+                <marker date="1561337361888" expanded="true" signature="3401:3476" ph="{...}" />
+                <marker date="1561337361888" expanded="true" signature="3573:3706" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vidly/Controllers/AccountController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <folding>
+                <marker date="1554989389106" expanded="false" signature="6:282" ph="..." />
+                <marker date="1554989389106" expanded="true" signature="311:17381" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="377:17379" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="529:549" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="660:762" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="817:1079" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="843:974" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="999:1069" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="1130:1394" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="1156:1294" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="1318:1384" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="1404:1437" ph="/* GET: /Account/Login ... */" />
+                <marker date="1554989389106" expanded="true" signature="1514:1604" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="1614:1648" ph="/* POST: /Account/Login ... */" />
+                <marker date="1554989389106" expanded="true" signature="1813:2846" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="1860:1924" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="1938:2099" ph="/* This doesn't count login failures towards account lockout ... */" />
+                <marker date="1554989389106" expanded="true" signature="2262:2836" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="2856:2894" ph="/* GET: /Account/VerifyCode ... */" />
+                <marker date="1554989389106" expanded="true" signature="3022:3390" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="3192:3258" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="3400:3439" ph="/* POST: /Account/VerifyCode ... */" />
+                <marker date="1554989389106" expanded="true" signature="3596:4657" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="3643:3707" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="3721:4055" ph="/* The following code protects for brute force attacks against the two factor codes. ... */" />
+                <marker date="1554989389106" expanded="true" signature="4251:4647" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="4667:4703" ph="/* GET: /Account/Register ... */" />
+                <marker date="1554989389106" expanded="true" signature="4767:4814" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="4824:4861" ph="/* POST: /Account/Register ... */" />
+                <marker date="1554989389106" expanded="true" signature="5014:6309" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="5060:6198" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="5290:6149" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="5452:6068" ph="/* For more information on how to enable account confirmation and password reset please visit https://go.microsof ... */" />
+                <marker date="1554989389106" expanded="true" signature="6319:6359" ph="/* GET: /Account/ConfirmEmail ... */" />
+                <marker date="1554989389106" expanded="true" signature="6465:6745" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="6523:6589" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="6755:6797" ph="/* GET: /Account/ForgotPassword ... */" />
+                <marker date="1554989389106" expanded="true" signature="6867:6914" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="6924:6967" ph="/* POST: /Account/ForgotPassword ... */" />
+                <marker date="1554989389106" expanded="true" signature="7132:8360" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="7178:8249" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="7356:7540" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="7558:8235" ph="/* For more information on how to enable account confirmation and password reset please visit https://go.microsof ... */" />
+                <marker date="1554989389106" expanded="true" signature="8370:8424" ph="/* GET: /Account/ForgotPasswordConfirmation ... */" />
+                <marker date="1554989389106" expanded="true" signature="8506:8553" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="8563:8604" ph="/* GET: /Account/ResetPassword ... */" />
+                <marker date="1554989389106" expanded="true" signature="8684:8762" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="8772:8814" ph="/* POST: /Account/ResetPassword ... */" />
+                <marker date="1554989389106" expanded="true" signature="8977:9670" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="9024:9088" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="9189:9359" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="9493:9602" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="9680:9733" ph="/* GET: /Account/ResetPasswordConfirmation ... */" />
+                <marker date="1554989389106" expanded="true" signature="9814:9861" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="9871:9913" ph="/* POST: /Account/ExternalLogin ... */" />
+                <marker date="1554989389106" expanded="true" signature="10069:10283" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="10293:10329" ph="/* GET: /Account/SendCode ... */" />
+                <marker date="1554989389106" expanded="true" signature="10438:10970" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="10551:10617" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="10980:11017" ph="/* POST: /Account/SendCode ... */" />
+                <marker date="1554989389106" expanded="true" signature="11170:11638" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="11217:11276" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="11408:11474" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="11648:11697" ph="/* GET: /Account/ExternalLoginCallback ... */" />
+                <marker date="1554989389106" expanded="true" signature="11802:13051" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="11932:12010" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="12235:13041" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="13061:13115" ph="/* POST: /Account/ExternalLoginConfirmation ... */" />
+                <marker date="1554989389106" expanded="true" signature="13320:14521" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="13377:13465" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="13502:14435" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="13721:13814" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="14014:14386" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="14157:14368" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="14531:14566" ph="/* POST: /Account/LogOff ... */" />
+                <marker date="1554989389106" expanded="true" signature="14657:14820" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="14830:14878" ph="/* GET: /Account/ExternalLoginFailure ... */" />
+                <marker date="1554989389106" expanded="true" signature="14954:15001" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="15058:15504" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="15095:15456" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="15151:15272" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="15317:15442" ph="{...}" />
+                <marker date="1554989389106" expanded="false" signature="15514:17373" ph="Helpers" />
+                <marker date="1554989389106" expanded="true" signature="15704:15836" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="15730:15826" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="15891:16041" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="15950:16031" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="16105:16294" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="16158:16230" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="16359:17354" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="16493:16521" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="16609:16755" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="16984:17344" ph="{...}" />
+                <marker date="1554989389106" expanded="true" signature="17127:17224" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Vidly/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vidly/Controllers/CustomersController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Vidly/Controllers/CustomersController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.Vidly/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.Vidly/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="128" />
+    <option name="width" value="1440" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Vidly" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Vidly" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Vidly" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Vidly" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Vidly" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df368325-c98e-4496-97b5-a923a4aea0d1" name="Default Changelist" comment="" />
+      <created>1561470056099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561470056099</updated>
+      <workItem from="1561470057668" duration="1371000" />
+      <workItem from="1561814518259" duration="2098000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3469000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18108653" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32916668" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32916668" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.4125" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32916668" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32916668" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vidly/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <marker date="1554989389106" expanded="false" signature="6:282" ph="..." />
+            <marker date="1554989389106" expanded="true" signature="311:17381" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="377:17379" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="529:549" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="660:762" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="817:1079" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="843:974" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="999:1069" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="1130:1394" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="1156:1294" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="1318:1384" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="1404:1437" ph="/* GET: /Account/Login ... */" />
+            <marker date="1554989389106" expanded="true" signature="1514:1604" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="1614:1648" ph="/* POST: /Account/Login ... */" />
+            <marker date="1554989389106" expanded="true" signature="1813:2846" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="1860:1924" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="1938:2099" ph="/* This doesn't count login failures towards account lockout ... */" />
+            <marker date="1554989389106" expanded="true" signature="2262:2836" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="2856:2894" ph="/* GET: /Account/VerifyCode ... */" />
+            <marker date="1554989389106" expanded="true" signature="3022:3390" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="3192:3258" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="3400:3439" ph="/* POST: /Account/VerifyCode ... */" />
+            <marker date="1554989389106" expanded="true" signature="3596:4657" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="3643:3707" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="3721:4055" ph="/* The following code protects for brute force attacks against the two factor codes. ... */" />
+            <marker date="1554989389106" expanded="true" signature="4251:4647" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="4667:4703" ph="/* GET: /Account/Register ... */" />
+            <marker date="1554989389106" expanded="true" signature="4767:4814" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="4824:4861" ph="/* POST: /Account/Register ... */" />
+            <marker date="1554989389106" expanded="true" signature="5014:6309" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="5060:6198" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="5290:6149" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="5452:6068" ph="/* For more information on how to enable account confirmation and password reset please visit https://go.microsof ... */" />
+            <marker date="1554989389106" expanded="true" signature="6319:6359" ph="/* GET: /Account/ConfirmEmail ... */" />
+            <marker date="1554989389106" expanded="true" signature="6465:6745" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="6523:6589" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="6755:6797" ph="/* GET: /Account/ForgotPassword ... */" />
+            <marker date="1554989389106" expanded="true" signature="6867:6914" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="6924:6967" ph="/* POST: /Account/ForgotPassword ... */" />
+            <marker date="1554989389106" expanded="true" signature="7132:8360" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="7178:8249" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="7356:7540" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="7558:8235" ph="/* For more information on how to enable account confirmation and password reset please visit https://go.microsof ... */" />
+            <marker date="1554989389106" expanded="true" signature="8370:8424" ph="/* GET: /Account/ForgotPasswordConfirmation ... */" />
+            <marker date="1554989389106" expanded="true" signature="8506:8553" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="8563:8604" ph="/* GET: /Account/ResetPassword ... */" />
+            <marker date="1554989389106" expanded="true" signature="8684:8762" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="8772:8814" ph="/* POST: /Account/ResetPassword ... */" />
+            <marker date="1554989389106" expanded="true" signature="8977:9670" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="9024:9088" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="9189:9359" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="9493:9602" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="9680:9733" ph="/* GET: /Account/ResetPasswordConfirmation ... */" />
+            <marker date="1554989389106" expanded="true" signature="9814:9861" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="9871:9913" ph="/* POST: /Account/ExternalLogin ... */" />
+            <marker date="1554989389106" expanded="true" signature="10069:10283" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="10293:10329" ph="/* GET: /Account/SendCode ... */" />
+            <marker date="1554989389106" expanded="true" signature="10438:10970" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="10551:10617" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="10980:11017" ph="/* POST: /Account/SendCode ... */" />
+            <marker date="1554989389106" expanded="true" signature="11170:11638" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="11217:11276" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="11408:11474" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="11648:11697" ph="/* GET: /Account/ExternalLoginCallback ... */" />
+            <marker date="1554989389106" expanded="true" signature="11802:13051" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="11932:12010" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="12235:13041" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="13061:13115" ph="/* POST: /Account/ExternalLoginConfirmation ... */" />
+            <marker date="1554989389106" expanded="true" signature="13320:14521" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="13377:13465" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="13502:14435" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="13721:13814" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="14014:14386" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="14157:14368" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="14531:14566" ph="/* POST: /Account/LogOff ... */" />
+            <marker date="1554989389106" expanded="true" signature="14657:14820" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="14830:14878" ph="/* GET: /Account/ExternalLoginFailure ... */" />
+            <marker date="1554989389106" expanded="true" signature="14954:15001" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="15058:15504" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="15095:15456" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="15151:15272" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="15317:15442" ph="{...}" />
+            <marker date="1554989389106" expanded="false" signature="15514:17373" ph="Helpers" />
+            <marker date="1554989389106" expanded="true" signature="15704:15836" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="15730:15826" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="15891:16041" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="15950:16031" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="16105:16294" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="16158:16230" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="16359:17354" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="16493:16521" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="16609:16755" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="16984:17344" ph="{...}" />
+            <marker date="1554989389106" expanded="true" signature="17127:17224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vidly/Controllers/CustomersController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+          <folding>
+            <marker date="1561337361888" expanded="true" signature="6:199" ph="..." />
+            <marker date="1561337361888" expanded="true" signature="229:3746" ph="{...}" />
+            <marker date="1561337361888" expanded="true" signature="281:3744" ph="{...}" />
+            <marker date="1561337361888" expanded="true" signature="296:386" ph="private_variable" />
+            <marker date="1561337361888" expanded="true" signature="396:3073" ph="public_method" />
+            <marker date="1561337361888" expanded="true" signature="454:525" ph="{...}" />
+            <marker date="1561337361888" expanded="true" signature="582:634" ph="{...}" />
+            <marker date="1561337361888" expanded="true" signature="706:1677" ph="{...}" />
+            <marker date="1561337361888" expanded="true" signature="753:1037" ph="{...}" />
+            <marker date="1561337361888" expanded="true" signature="842:974" ph="{...}" />
+            <marker date="1561337361888" expanded="true" signature="1072:1187" ph="{...}" />
+            <marker date="1561337361888" expanded="true" signature="1204:1535" ph="{...}" />
+            <marker date="1561337361888" expanded="true" signature="1740:1993" ph="{...}" />
+            <marker date="1561337361888" expanded="false" signature="1763:1859" ph="/* Entity Framework will not excute querry at this code ... */" />
+            <marker date="1561337361888" expanded="true" signature="2035:2473" ph="{...}" />
+            <marker date="1561337361888" expanded="false" signature="2298:2418" ph="{...}" />
+            <marker date="1561337361888" expanded="false" signature="2508:2767" ph="{...}" />
+            <marker date="1561337361888" expanded="false" signature="2654:2720" ph="{...}" />
+            <marker date="1561337361888" expanded="false" signature="2813:3054" ph="{...}" />
+            <marker date="1561337361888" expanded="false" signature="3083:3737" ph="TDD" />
+            <marker date="1561337361888" expanded="true" signature="3184:3718" ph="{...}" />
+            <marker date="1561337361888" expanded="true" signature="3246:3304" ph="{...}" />
+            <marker date="1561337361888" expanded="true" signature="3401:3476" ph="{...}" />
+            <marker date="1561337361888" expanded="true" signature="3573:3706" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

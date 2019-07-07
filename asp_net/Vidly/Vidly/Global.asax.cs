@@ -13,6 +13,8 @@ namespace Vidly
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
+            // Framework process to put info to GlobalFilters.Filters, 
+            // RouteTable.Routes, BundleTable.Bundles
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);

@@ -6,14 +6,18 @@ using System.Web.Mvc;
 using Vidly.Models;
 using Vidly.ViewModels;
 using System.Data.Entity;
+using NUnit.Framework;
 
 
 namespace Vidly.Controllers
 {
     public class CustomersController : Controller
     {
+        #region private_variable
         private ApplicationDbContext _context;
+        #endregion
 
+        #region public_method
         public CustomersController()
         {
             _context = new ApplicationDbContext();
@@ -25,9 +29,23 @@ namespace Vidly.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
-            if(customer.Id == 0)
+            if (!ModelState.IsValid)
+            {
+                // Simply Get receive information from customer, 
+                // -> return again in form
+                var viewModel = new NewCustomersViewModel
+                {
+                    Customer = customer,
+                    MembershipTypes = _context.MembershipTypes.ToList()
+                };
+
+                return View("New", viewModel);
+            }
+
+            if (customer.Id == 0)
             {
                 // similar 'git add'
                 _context.Customers.Add(customer);
@@ -66,8 +84,8 @@ namespace Vidly.Controllers
                 Customer = customer,
                 MembershipTypes = _context.MembershipTypes.ToList()
             };
-            
-            return View("New",viewModel);
+
+            return View("New", viewModel);
         }
 
         public ActionResult New()
@@ -75,7 +93,8 @@ namespace Vidly.Controllers
             var membershipTypes = _context.MembershipTypes.ToList();
             var viewModel = new NewCustomersViewModel
             {
-                MembershipTypes = membershipTypes,
+                Customer = new Customer(),
+                MembershipTypes = membershipTypes
             };
             return View(viewModel);
         }
@@ -89,5 +108,38 @@ namespace Vidly.Controllers
 
             return View(customer);
         }
+        #endregion
+
+        #region TDD
+
+        [TestFixture]
+        [Category("Category_for_test_fixture")]
+        class Test
+        {
+            [SetUp]
+            public void Setup()
+            {
+                // do nothing
+            }
+
+            [Test]
+            [Category("category_for_test1")]
+            public void Test1()
+            {
+                Assert.Pass("Just test Unit");
+            }
+
+            [Test]
+            [Category("category_for_test2")]
+            public void Test2()
+            {
+                Assert.AreEqual(0, 1, "Just test NUnit");
+                Assert.Fail("Just test Unit");
+            }
+
+
+        }
+        #endregion
+
     }
 }

@@ -46,6 +46,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -225,6 +228,18 @@
     <Compile Include="Migrations\201904100751523_addmembershipTypeIdtoCustomerTable.Designer.cs">
       <DependentUpon>201904100751523_addmembershipTypeIdtoCustomerTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906111543028_addBirthdateToCustomerTable.cs" />
+    <Compile Include="Migrations\201906111543028_addBirthdateToCustomerTable.Designer.cs">
+      <DependentUpon>201906111543028_addBirthdateToCustomerTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907071221118_Update-Movie-database.cs" />
+    <Compile Include="Migrations\201907071221118_Update-Movie-database.Designer.cs">
+      <DependentUpon>201907071221118_Update-Movie-database.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907071306334_add-validation-in-movie-model.cs" />
+    <Compile Include="Migrations\201907071306334_add-validation-in-movie-model.Designer.cs">
+      <DependentUpon>201907071306334_add-validation-in-movie-model.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -232,11 +247,12 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
+    <Compile Include="Models\Min18YearIfaMember.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\NewCustomersViewModel.cs" />
-    <Compile Include="ViewModels\RandomMovieViewModel.cs" />
+    <Compile Include="ViewModels\NewMoviesViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-darkly.css" />
@@ -358,6 +374,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904100751523_addmembershipTypeIdtoCustomerTable.resx">
       <DependentUpon>201904100751523_addmembershipTypeIdtoCustomerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906111543028_addBirthdateToCustomerTable.resx">
+      <DependentUpon>201906111543028_addBirthdateToCustomerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907071221118_Update-Movie-database.resx">
+      <DependentUpon>201907071221118_Update-Movie-database.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907071306334_add-validation-in-movie-model.resx">
+      <DependentUpon>201907071306334_add-validation-in-movie-model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

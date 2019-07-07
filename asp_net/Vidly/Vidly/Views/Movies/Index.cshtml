@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Vidly.Models.Movie> 
+﻿@model IEnumerable<Vidly.Models.Movie>
 
 @{
     ViewBag.Title = "Index";
@@ -6,8 +6,11 @@
 }
 
 <h2>Movies</h2>
+<button class="btn">
+    @Html.ActionLink("New", "New")
+</button>
 
-@if(!Model.Any())
+@if (!Model.Any())
 {
     <text>There is no movies currently</text>
 }
