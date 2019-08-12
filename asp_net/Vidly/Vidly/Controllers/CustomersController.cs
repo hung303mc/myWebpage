@@ -14,19 +14,8 @@ namespace Vidly.Controllers
     public class CustomersController : Controller
     {
         #region private_variable
+
         private ApplicationDbContext _context;
-        #endregion
-
-        #region public_method
-        public CustomersController()
-        {
-            _context = new ApplicationDbContext();
-        }
-
-        protected override void Dispose(bool disposing)
-        {
-            _context.Dispose();
-        }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -57,10 +46,25 @@ namespace Vidly.Controllers
                 customerInDb.IsSubcribedToNewsletter = customer.IsSubcribedToNewsletter;
                 customerInDb.MembershipTypeId = customer.MembershipTypeId;
             }
+
             // similar 'git commit'
             _context.SaveChanges();
 
             return RedirectToAction("Index", "Customers");
+        }
+
+        #endregion
+
+        #region public_method
+
+        public CustomersController()
+        {
+            _context = new ApplicationDbContext();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            _context.Dispose();
         }
 
         // GET: Customers
@@ -108,6 +112,7 @@ namespace Vidly.Controllers
 
             return View(customer);
         }
+
         #endregion
 
         #region TDD
@@ -136,10 +141,8 @@ namespace Vidly.Controllers
                 Assert.AreEqual(0, 1, "Just test NUnit");
                 Assert.Fail("Just test Unit");
             }
-
-
         }
-        #endregion
 
+        #endregion
     }
 }
