@@ -72,8 +72,8 @@ namespace Vidly.Controllers
         {
             // Entity Framework will not excute querry at this code
             // it's dereference excution
-            var customers = _context.Customers.Include(c => c.MembershipType).ToList();
-            return View(customers);
+            // var customers = _context.Customers.Include(c => c.MembershipType).ToList();
+            return View();
         }
 
         public ActionResult Edit(int id)

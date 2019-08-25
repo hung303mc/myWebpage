@@ -8,8 +8,14 @@ namespace Vidly
     {
         public MappingProfile()
         {
-            Mapper.CreateMap<Customer, CustomerDto>();
-            Mapper.CreateMap<CustomerDto, Customer>();
+            Mapper.CreateMap<Customer, CustomerDto>(); //.ForMember(m => m.Id, opt => opt.Ignore());
+            Mapper.CreateMap<CustomerDto, Customer>(); // .ForMember(m => m.Id, opt => opt.Ignore());
+            Mapper.CreateMap<Movie, MoviesDto>(); // .ForMember(m => m.Id, opt => opt.Ignore());
+            Mapper.CreateMap<MoviesDto, Movie>(); //.ForMember(m => m.Id, opt => opt.Ignore());
+            
+            Mapper.CreateMap<MembershipType, MembershipTypeDto>();
+            Mapper.CreateMap<Genre, GenreDto>();
+            
         }
     }
 }

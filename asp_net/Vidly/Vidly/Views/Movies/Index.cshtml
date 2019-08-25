@@ -16,17 +16,71 @@
 }
 else
 {
-    <table class="table table-bordered">
-        <tr>
-            <th> Movies</th>
-            <th> Genre</th>
-        </tr>
-        @foreach (var movie in Model)
-        {
+    <table id="Movies" class="table table-bordered">
+        <thead>
             <tr>
-                <td>@Html.ActionLink(movie.Name, "Detail", new { Id = movie.Id })  </td>
-                <td>@movie.Genre.Name</td>
+                <th> Movies</th>
+                <th> Genre</th>
+                <th> Delete</th>
             </tr>
-        }
+        </thead>
+        <tbody>
+@*         @foreach (var movie in Model) *@
+@*         { *@
+@*             <tr> *@
+@*                 <td>@Html.ActionLink(movie.Name, "Detail", new {Id = movie.Id}) </td> *@
+@*                 <td>@movie.Genre.Name</td> *@
+@*             </tr> *@
+@*         } *@
+        </tbody>
     </table>
+}
+
+
+@section scripts
+{
+    <script>
+    $(document).ready(function() {
+        var table = $("#Movies").DataTable({
+          ajax:{
+              url:"api/movies",
+              dataSrc:""
+          },
+          columns:[
+              {
+                  data: "Name",
+                  render: function(data, type, movies) {
+                    return "<a href='/movies/edit/" + movies.Id + "'>" + movies.Name + "</a>";
+                  }
+              },
+              {
+                  data: "Genre.Name"
+              },
+              {
+                  data: "Id",
+                  render: function(data) {
+                    return "<button class='btn-link js-delete' data-movie-id=  " + data + ">Delete</button>";
+                  }
+              }
+              
+          ]
+        });
+        
+    $("#Movies").on("click", ".js-delete", function() {
+      var button = $(this);
+      bootbox.confirm("Are you sure you want to delete movie", function(result) {
+        if(result) {
+            $.ajax({
+                url: "api/movies/" + button.attr("data-movie-id"),
+                method: "DELETE",
+                success: function() {
+                    table.row(button.parents("tr")).remove().draw();
+                }
+            })
+        }
+      });
+    })
+        
+    })
+    </script>
 }
